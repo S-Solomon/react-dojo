@@ -24,8 +24,6 @@ const Home = () => {
     return ( 
         <div className="home">
             <Bloglist blogs={blogs} title="All Blogs!" handleDelete={handleDelete}/>
-            <button onClick={() => setName('luigi')}>Change name</button>
-            <p>{ name }</p>
         </div>
     );
 }
