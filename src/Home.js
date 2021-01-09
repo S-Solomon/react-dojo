@@ -18,8 +18,7 @@ const Home = () => {
 
     useEffect(() => {
         console.log('use effect ran');
-        console.log(name);
-    }, [name]);
+    }, []);
 
     return ( 
         <div className="home">
@@ -27,5 +26,5 @@ const Home = () => {
         </div>
     );
 }
- 
+
 export default Home;
