@@ -3,7 +3,8 @@ import useFetch from './useFetch';
 
 
 const Home = () => {
-    const { data: blogs, isPending, error} = useFetch('http://localhost:8000/blogs');
+    const { data: blogs, isPending, error} = useFetch('../data/db.json');
+    // http://localhost:8000/blogs
 
 
     return ( 
